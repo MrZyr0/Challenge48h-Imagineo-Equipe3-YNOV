@@ -1,0 +1,255 @@
+@font-face {
+	font-family: 'glacial';
+	src:url('../../assets/fonts/glacialindifference.ttf');
+ }
+
+ @font-face {
+	font-family: 'Didact';
+	src:url('../../assets/fonts/didactgothic.ttf');
+ }
+
+div.testimonial-block {
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+
+#circle {
+	z-index: 1;
+	border: 0.1875em solid #0F1C3F;
+	background: rgb(101, 187, 70);
+	border-radius: 50%;
+	box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+	height: 22em;
+	width: 22em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-10%, -23%);
+}
+
+#areatitle {
+	font-family: glacial;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin-left: 2%;
+	color: white;
+	font-weight: bold;
+	transform: translateY(50%);
+	font-size: 1.6em;
+}
+
+#area {
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1% 20% 1% 20%;
+	transform: translate(5%,90%);
+	background: rgb(232, 232, 232);
+	font-size: 1.3em;
+	font-family: Didact;
+	color: rgb(37, 71, 101);
+}
+
+#circle_two {
+	z-index: 1;
+	border: 0.1875em solid #0F1C3F;
+	background: rgb(0, 163, 163);
+	border-radius: 50%;
+	box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+	height: 22em;
+	width: 22em;
+	position: absolute;
+	transform: translate(-20%, 87%);
+}
+
+#areatitle_two {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 2%;
+	transform: translateY(268%);
+	font-size: 1.6em;
+	font-family: glacial;
+	color: white;
+	font-weight: bold;
+}
+
+#areatwo {
+	border-radius: 4px;
+	padding: 1% 20% 1% 20%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(5%, 380%);
+	background: rgb(232, 232, 232);
+	font-size: 1.3em;
+	font-family: Didact;
+	color: rgb(37, 71, 101);
+}
+
+#areathree {
+	margin-bottom: 2%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	letter-spacing: 0.1rem;
+	background: rgb(15, 53, 87);
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: glacial;
+	padding: 1% 20% 1% 20%;
+}
+
+@media screen and (max-width: 1480px) {
+
+	#areatitle {
+		font-size: 1.5em;
+	}
+
+	#area {
+		transform: translate(5%,90%);
+		font-size: 1.2em;
+	}
+
+	#areatwo {
+		font-size: 1.2em;
+	}
+
+	#circle {
+		height: 19em;
+		width: 19em;
+		transform: translate(-10%, -23%);
+	}
+
+	#circle_two {
+		height: 19em;
+		width: 19em;
+		transform: translate(-20%, 87%);
+	}
+
+	#areatitle_two {
+		transform: translateY(245%);
+			font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 1320px) {
+	#areatitle {
+		font-size: 1.1em;
+	}
+
+	#areatitle_two {
+		transform: translateY(270%);
+		font-size: 1.1em;
+	}
+
+	#circle {
+		height: 15em;
+		width: 15em;
+	}
+
+	#circle_two {
+		height: 15em;
+		width: 15em;
+
+	}
+
+	#area {
+		transform: translate(5%,60%);
+		font-size: 1.1em;
+	}
+
+	#areatwo {
+		transform: translate(5%, 320%);
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#areatitle {
+		font-size: 0.9em;
+	}
+
+	#areatitle_two {
+		transform: translateY(290%);
+		font-size: 0.9em;
+	}
+
+	#circle {
+		height: 13em;
+		width: 13em;
+	}
+
+	#circle_two {
+		height: 13em;
+		width: 13em;
+
+	}
+
+	#area {
+		font-size: 0.9em;
+		transform: translate(5%,60%);
+	}
+
+	#areatwo {
+		transform: translate(5%, 320%);
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#areatitle {
+		font-size: 0.85em;
+		transform: translateY(30%);
+
+	}
+
+	#areatitle_two {
+		transform: translateY(260%);
+		font-size: 0.85em;
+	}
+
+	#circle {
+		height: 11em;
+		width: 11em;
+	}
+
+	#circle_two {
+		height: 11em;
+		width: 11em;
+
+	}
+
+	#area {
+		font-size: 0.7em;
+		transform: translate(5%,60%);
+	}
+
+	#areatwo {
+		transform: translate(5%, 320%);
+		font-size: 0.7em;
+	}
+
+	#areathree {
+		margin-bottom: 2%;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		letter-spacing: 0.1rem;
+		background: rgb(15, 53, 87);
+		color: white;
+		font-weight: bold;
+		font-size: 0.8em;
+		font-family: glacial;
+		padding: 1% 20% 1% 20%;
+	}
+}
+
+
