@@ -1,0 +1,125 @@
+@font-face {
+	font-family:'DidactGothic';
+	src:url('../assets/fonts/didactgothic.ttf');
+
+	font-family: 'CenturyGothic';
+	src:url('../assets/fonts/centurygothic.ttf');
+ }
+ 
+div.testimonial-block {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #175388;
+	position: relative;
+	overflow: hidden;
+}
+
+
+div.testimonial-block__content > h2.title {
+	font-family: CenturyGothic;
+	color: #ffffff;
+	margin-bottom: 50px;	
+	font-size: 2.5em;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	transform: translate(15%, -400%);
+}
+
+
+div.testimonial-block__content > p {
+	color: #ffffff;
+	margin-bottom: 100px;
+	font-size: 2em;
+	letter-spacing: .1rem;
+	transform: translate(1%, -50%);
+}
+
+#soustitre {
+	color: #ffffff;
+	margin-bottom: 50px;
+	font-size: 2em;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	transform: translate(1%, -20%);
+}
+
+
+#cercle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-10%, -20%);
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+	background: repeating-linear-gradient(-45deg, transparent, transparent 20px, white 20px, white 40px);
+}
+
+#cercle_second {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(20%, 25%);
+    width: 200px;
+    height: 200px;
+	border-radius: 100px;
+	border: dashed white;
+}
+#cercle_second >p{
+	transform:translate(10%,180%);
+}
+#cercle_third {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(-50%, 40%);
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	background: whitesmoke;
+
+}
+#cercle_third >p{
+	transform:translate(16%,35%);
+}
+
+
+#cercle_four {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translate(16%, 30%);
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	background: whitesmoke;
+}
+#cercle_four >p{
+	transform:translate(17%,45%);
+}
+
+
+
+
+#logo_imagineo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translate(20%, -20%);
+	width: 33%;
+}
+
+div.testimonial-block__content > p.paragraph {
+	color: #FEFEFE;
+	font-family: DidactGothic;
+	text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+
